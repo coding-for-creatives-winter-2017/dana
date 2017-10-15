@@ -1,10 +1,14 @@
 <style>
-h1 {color: rgb(255,56,152); font-family: A Gentle Touch, Script; font-size: 6em ; line-height: 1.5em ;}
+h1 {color: rgb(255,56,152); font-family: A Gentle Touch, Script; font-size: 6em ; line-height: 1.5em ; position: relative ; bottom: -40px ; z-index: 1 ;}
 body {text-align: center; }
-#trendy {font-family: Fago Office Serif ; color: rgb(211,211,211); font-size: 1em; position: relative; ; top: 10px padding: 3px ; margin-top: 3px ;}
-#dogs {padding: 0em; margin-top: 0em ;}
+#trendy {font-family: Fago Office Serif ; color: rgb(211,211,211); font-size: 1em; text-align: center ; position: relative; top:1px ; z-index: 2}
+#dogs {position: relative; top: 10px;}
 p {font-family: Fago Office Serif ; color: rgb(211,211,211) ; font-size: .8em ;}
 ul {list-style-type: none ;}
-li {padding: 2em ; font-family: A Gentle Touch ; font-size: 2em ; color: rgb(255,56,152);}
-a {font-family: Fago Office Serif ; color: rgb(255,56,152) ; font-size: .8em ; line-height: 300px ;}
+li {font-family: A Gentle Touch ; font-size: 2em ; color: rgb(255,56,152); position: relative; bottom: -20px ;}
+a {font-family: Fago Office Serif ; color: rgb(255,56,152) ; font-size: .8em ; line-height: 300px ; }
+a:hover {color: (211,211,211)}
+a:visited {background-color: (211,211,211)}
+#images {padding:2px;}
+
 </style>
