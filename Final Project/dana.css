@@ -6,7 +6,6 @@ html, body {
 }
 
 .logo-container {
-	background-color: rgb(0, 0, 255);
 	padding-top: 100px;
 	padding-bottom: 60px;
 }
@@ -16,9 +15,8 @@ html, body {
 }
 
 .logo {
-	height: 168px;
 	width: 168px;
-	background-color: rgb(170, 0, 0);
+	height: 168px;
 }
 
 .product-name {
@@ -35,7 +33,7 @@ html, body {
 }
 
 .header {
-	background-color: rgb(0,0,0);
+	background-color: rgb(180,180,180);
 	color: rgb(255,255,255);
 	padding: 30px;
 	padding-right: 300px;
@@ -55,21 +53,44 @@ html, body {
 	margin-left: 0;
 }
 
+.bubble-container.first .bubble {
+	background-image: url('assets/bubble1.png');
+}
+
+.bubble-container.second .bubble {
+	background-image: url('assets/bubble2.png');
+}
+
+.bubble-container.third .bubble {
+	background-image: url('assets/bubble3.png');
+}
+
+.bubble-container.fourth .bubble {
+	background-image: url('assets/bubble4.png');
+}
+
 .bubble {
 	width: 200px;
-	height: 240px;
-	background-color: rgb(200, 200, 200);
+	height: 233px;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.bubble .text-container {
+	padding-top: 40px;
 }
 
 .page3 {
 	height: 500px;
-	background-color: rgb(200, 200, 200);
+	width: 100%;
+	background-image: url('assets/oldpeople.png');
+	background-size: cover;
 }
 
 .old-people-text {
 	padding-top: 100px;
 	padding-left: 40px;
-	padding-right: 300px;
+	padding-right: 400px;
 }
 
 .about {
@@ -93,5 +114,5 @@ html, body {
 	margin-top: 20px;
 	width: 100%;
 	height: 300px;
-	background-color: rgb(200, 200, 200);
+	background-image: url('assets/earings-forweb-bw.png');
 }
