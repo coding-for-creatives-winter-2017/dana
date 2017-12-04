@@ -54,11 +54,14 @@ span {
 	background-color: rgb(180,180,180);
 	color: rgb(255,255,255);
 	padding: 30px;
-	padding-right: 300px;
 }
 
 .header span {
 	font-size: 30pt;
+}
+
+.h-text-container {
+	max-width: 960px;
 }
 
 .bubbles-container {
@@ -125,7 +128,6 @@ span {
 .old-people-text {
 	padding-top: 100px;
 	padding-left: 40px;
-	padding-right: 400px;
 }
 
 .old-people-text span {
