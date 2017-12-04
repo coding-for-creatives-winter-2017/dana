@@ -5,6 +5,15 @@ html, body {
 	padding: 0;
 }
 
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('assets/robotoslab-light.ttf');
+}
+
+span {
+	font-family: 'RobotoLight';
+}
+
 .logo-container {
 	padding-top: 100px;
 	padding-bottom: 60px;
@@ -23,8 +32,17 @@ html, body {
 	margin-top: 10px;
 }
 
+.product-name span {
+	font-size: 20pt;
+}
+
 .tagline {
 	margin-top: 60px;
+}
+
+.tagline span {
+	font-size: 30pt;
+	font-weight: bold;
 }
 
 .page2 {
@@ -39,9 +57,20 @@ html, body {
 	padding-right: 300px;
 }
 
+.header span {
+	font-size: 30pt;
+}
+
 .bubbles-container {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.bubbles-container .centering {
+	/* Center without using text-align: center; */
+	position: relative;
+	left: 50%;
+	margin-left: -460px;
 }
 
 .bubble-container {
@@ -78,6 +107,12 @@ html, body {
 
 .bubble .text-container {
 	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.bubble span {
+	font-size: 8pt;
 }
 
 .page3 {
@@ -93,6 +128,10 @@ html, body {
 	padding-right: 400px;
 }
 
+.old-people-text span {
+	font-size: 32pt;
+}
+
 .about {
 	padding-top: 30px;
 	width: 100%;
@@ -102,8 +141,17 @@ html, body {
 	margin-top: 30px;
 }
 
+.whatis span {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
 .description {
 	margin-top: 20px;
+}
+
+.description span {
+	font-size: 18pt;
 }
 
 .contact-us {
